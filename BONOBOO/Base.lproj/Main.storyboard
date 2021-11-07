@@ -47,6 +47,9 @@
                                 <state key="normal" title=" 10" image="star.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="2Tp-yi-T06" kind="presentation" id="Gcg-UL-yAj"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="nIb-S0-fxE">
                                 <rect key="frame" x="20" y="248" width="374" height="427.5"/>
@@ -105,6 +108,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="-694.41964285714278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PHN-RR-S44">
+            <objects>
+                <viewController id="2Tp-yi-T06" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SUA-wT-BP3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="13w-Ht-04q"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ehg-He-WoD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TI1-lD-yYA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1939" y="-694"/>
         </scene>
         <!--Menu-->
         <scene sceneID="7rP-tJ-nA9">
