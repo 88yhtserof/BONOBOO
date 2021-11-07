@@ -13,6 +13,7 @@
 		9AC4B7912736BB5C00743A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4B78F2736BB5C00743A52 /* Main.storyboard */; };
 		9AC4B7932736BB5C00743A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4B7922736BB5C00743A52 /* Assets.xcassets */; };
 		9AC4B7962736BB5C00743A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4B7942736BB5C00743A52 /* LaunchScreen.storyboard */; };
+		9AF644F027380A3E002C5C06 /* MainDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF644EF27380A3E002C5C06 /* MainDateViewController.swift */; };
 		9AFE45C92737A5E20011F607 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE45C82737A5E20011F607 /* test.swift */; };
 		9AFE45CE2737A6BB0011F607 /* LittleForest.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9AFE45CB2737A6BB0011F607 /* LittleForest.jpeg */; };
 		9AFE45CF2737A6BB0011F607 /* Howl'sMovingCastle.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9AFE45CC2737A6BB0011F607 /* Howl'sMovingCastle.jpeg */; };
@@ -28,6 +29,7 @@
 		9AC4B7922736BB5C00743A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AC4B7952736BB5C00743A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AC4B7972736BB5C00743A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF644EF27380A3E002C5C06 /* MainDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDateViewController.swift; sourceTree = "<group>"; };
 		9AFE45C82737A5E20011F607 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		9AFE45CB2737A6BB0011F607 /* LittleForest.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LittleForest.jpeg; sourceTree = "<group>"; };
 		9AFE45CC2737A6BB0011F607 /* Howl'sMovingCastle.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Howl'sMovingCastle.jpeg"; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				9AC4B7942736BB5C00743A52 /* LaunchScreen.storyboard */,
 				9AC4B7972736BB5C00743A52 /* Info.plist */,
 				9AFE45C82737A5E20011F607 /* test.swift */,
+				9AF644EF27380A3E002C5C06 /* MainDateViewController.swift */,
 			);
 			path = BONOBOO;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				9AC4B78E2736BB5C00743A52 /* ViewController.swift in Sources */,
 				9AFE45C92737A5E20011F607 /* test.swift in Sources */,
 				9AC4B78A2736BB5C00743A52 /* AppDelegate.swift in Sources */,
+				9AF644F027380A3E002C5C06 /* MainDateViewController.swift in Sources */,
 				9AC4B78C2736BB5C00743A52 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
