@@ -25,7 +25,15 @@ class ViewController: UIViewController {
     }
     
     @objc func tapActionImageView(sender: UITapGestureRecognizer) {
-        print("Tap")
+        print("tap1")
+        //let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        guard let viewController = self.storyboard?.instantiateViewController(identifier: "DetailContentViewController") else{return}
+        print(self)
+        //self가 NavigationViewController가 아니라서 navigationVContoller 동작 안 한다.
+        
+        //self.present(viewController, animated: true, completion: nil)
+        self.navigationController?.pushViewController(viewController, animated: true)
+        print("tap2")
     }
 }
 
