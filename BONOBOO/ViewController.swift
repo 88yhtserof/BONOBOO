@@ -28,8 +28,14 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let mainDateVC = segue.destination as! MainDateViewController
-        mainDateVC.delegate = self
+        
+        if segue.identifier == "MainDateViewController" {
+            let mainDateVC = segue.destination as! MainDateViewController
+            mainDateVC.delegate = self
+        }
+        else if segue.identifier == "BtnStarViewController" {
+            
+        }
     }
     
     func setCurrentDate() {
