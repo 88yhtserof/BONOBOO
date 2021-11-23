@@ -28,12 +28,14 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if segue.identifier == "MainDateViewController" {
+//        let mainDateVC = segue.destination as! MainDateViewController
+//        mainDateVC.delegate = self
+        if segue.identifier == "SegueMainDate" {
             let mainDateVC = segue.destination as! MainDateViewController
             mainDateVC.delegate = self
+            print("set")
         }
-        else if segue.identifier == "BtnStarViewController" {
+        else if segue.identifier == "SegueBtnStar" {
             
         }
     }
