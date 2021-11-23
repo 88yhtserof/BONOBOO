@@ -108,6 +108,8 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="imgPoster" destination="nIb-S0-fxE" id="fno-p2-cfA"/>
+                        <outlet property="lblMonth" destination="LfM-wc-kdM" id="kKX-o0-KGh"/>
+                        <outlet property="lblYear" destination="EPU-0D-Dle" id="10U-go-slz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -144,6 +146,9 @@
                                         <rect key="frame" x="25" y="46" width="284" height="275.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" red="0.90849905303030298" green="0.4986869916315621" blue="0.78799692210894778" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <action selector="changeDatePicker:" destination="0Nk-29-N2w" eventType="valueChanged" id="eCx-Uo-hs9"/>
+                                        </connections>
                                     </datePicker>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

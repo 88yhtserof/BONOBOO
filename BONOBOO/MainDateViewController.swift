@@ -7,8 +7,14 @@
 
 import UIKit
 
+protocol MainDateDelegate {
+    func passDate(day: String, month: String, year: String)
+}
+
 class MainDateViewController: UIViewController {
 
+    var delegate: MainDateDelegate?
+    
     @IBOutlet weak var datePicker: UIDatePicker!
     
     override func viewDidLoad() {
@@ -19,7 +25,28 @@ class MainDateViewController: UIViewController {
         datePicker.backgroundColor = .white
     }
     
-
+    @IBAction func changeDatePicker(_ sender: UIDatePicker) {
+        var day = ""
+        var month = ""
+        var year = ""
+        
+        let datepick = sender
+        let fomatter = DateFormatter()
+        
+        fomatter.dateFormat = "d"
+        day = fomatter.string(from: datepick.date)
+        fomatter.dateFormat = "MMMM"
+        month = fomatter.string(from: datepick.date)
+        fomatter.dateFormat = "YYYY"
+        year = fomatter.string(from: datepick.date)
+     
+        guard let resultDelegate = delegate else {return}
+        resultDelegate.passDate(day: day, month: month, year: year)
+        
+        dismiss(animated: true, completion: nil)
+        
+    }
+    
     /*
     // MARK: - Navigation
 
